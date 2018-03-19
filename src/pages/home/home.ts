@@ -1,5 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
-import {NavController, Slide, Slides} from 'ionic-angular';
+import {NavController, Slides} from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
