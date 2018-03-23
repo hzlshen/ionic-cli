@@ -4,22 +4,28 @@
   </ion-navbar>
 </ion-header>
 
-  <!--轮播-->
-<ion-slides (slideChange)="slideChanged()" autoplay="2000">
-  <ion-slide class="img-slides">
-    <img src="../../assets/images/home-headerSlide-1.jpg" alt="">
-  </ion-slide>
-  <ion-slide class="img-slides">
-    <img src="../../assets/images/home-headerSlide-2.jpg" alt="">
-  </ion-slide>
-  <ion-slide class="img-slides">
-    <img src="../../assets/images/home-headerSlide-3.jpg" alt="">
-  </ion-slide>
-</ion-slides>
+
 
 <ion-content>
 
+  <!--轮播-->
+  <ion-slides  (slideChange)="slideChanged()" autoplay="2000">
+    <ion-slide class="img-slides">
+      <img src="../../assets/images/home-headerSlide-1.jpg" alt="">
+    </ion-slide>
+    <ion-slide class="img-slides">
+      <img src="../../assets/images/home-headerSlide-2.jpg" alt="">
+    </ion-slide>
+    <ion-slide class="img-slides">
+      <img src="../../assets/images/home-headerSlide-3.jpg" alt="">
+    </ion-slide>
+  </ion-slides>
 
+  <nz-input [nzType]="'search'" [nzPlaceHolder]="'input search text'"
+            [(ngModel)]="_value" style="width: 200px;" (nzOnSearch)="onSearch($event)"></nz-input>
+
+
+  <!--<button nz-button [nzType]="'primary'">测试按钮</button>-->
 
 
 
