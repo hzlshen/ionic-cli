@@ -8,6 +8,16 @@
 
 <ion-content>
 
+  <!--搜索框-->
+  <ion-searchbar (ionInput)="getItems($event)">
+  </ion-searchbar>
+
+  <ion-list style="margin: 0!important;">
+    <ion-item *ngFor="let item of items">
+      {{item}}
+    </ion-item>
+  </ion-list>
+
   <!--轮播-->
   <ion-slides  (slideChange)="slideChanged()" autoplay="2000">
     <ion-slide class="img-slides">
@@ -21,11 +31,11 @@
     </ion-slide>
   </ion-slides>
 
-  <nz-input [nzType]="'search'" [nzPlaceHolder]="'input search text'"
-            [(ngModel)]="_value" style="width: 200px;" (nzOnSearch)="onSearch($event)"></nz-input>
+  <!--<nz-input [nzType]="'search'" [nzPlaceHolder]="'input search text'"-->
+            <!--[(ngModel)]="_value" style="width: 200px;" (nzOnSearch)="onSearch($event)"></nz-input>-->
 
 
-  <!--<button nz-button [nzType]="'primary'">测试按钮</button>-->
+
 
 
 
