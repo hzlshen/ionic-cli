@@ -16,6 +16,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import {LoginPage} from "../pages/login/login";
+import {RegistPage} from "../pages/regist/regist";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {LoginPage} from "../pages/login/login";
     HomePage,
     TabsPage,
     PersonPage,
-    LoginPage
+    LoginPage,
+    RegistPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import {LoginPage} from "../pages/login/login";
     HomePage,
     TabsPage,
     PersonPage,
-    LoginPage
+    LoginPage,
+    RegistPage
   ],
   providers: [
     StatusBar,
