@@ -7,5 +7,27 @@ page-home {
     width: 100%;
     height: 100%;
   }
+  .contaniner_list{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .content_box{
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+  }
+  .img_box{
+    width: 100%;
+    height: 100%;
+  }
+  .content_box img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
 
 }
