@@ -15,6 +15,7 @@ import {NgZorroAntdModule} from "ng-zorro-antd";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
+import {LoginPage} from "../pages/login/login";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {FormsModule} from "@angular/forms";
     ContactPage,
     HomePage,
     TabsPage,
-    PersonPage
+    PersonPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import {FormsModule} from "@angular/forms";
     ContactPage,
     HomePage,
     TabsPage,
-    PersonPage
+    PersonPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
