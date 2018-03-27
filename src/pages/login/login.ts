@@ -23,8 +23,9 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
   }
 
-  toRegist(){
-    this.navCtrl.push(RegistPage)
+  //去注册
+  getRegister(){
+    this.navCtrl.push(RegistPage);
   }
 
 }
