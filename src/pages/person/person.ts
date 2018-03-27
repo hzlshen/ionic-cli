@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import {LoginPage} from "../login/login";
 /**
  * Generated class for the PersonPage page.
  *
@@ -20,6 +20,11 @@ export class PersonPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PersonPage');
+  }
+
+  //去登录
+  getLogin(){
+    this.navCtrl.push(LoginPage);
   }
 
 }

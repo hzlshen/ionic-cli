@@ -1,6 +1,7 @@
 import {Component, ViewChild} from '@angular/core';
 import {NavController, Slides} from 'ionic-angular';
 
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -55,6 +56,7 @@ export class HomePage {
 
 
   }
+
 
 
   //初始化slides
