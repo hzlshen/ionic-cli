@@ -1,51 +1,51 @@
-
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>个人中心</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>个人中心</ion-title>
+    </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
 
-  <div>
-    <ion-label>
-      不动的推动者
-    </ion-label>
-    <image></image>
-  </div>
+    <div>
+        <ion-label>
+            不动的推动者
+        </ion-label>
+        <!-- <image></image> -->
+    </div>
 
-  <button ion-button color="danger" (click)="getLogin()">登录</button>
+    <button ion-button color="danger" (click)="getLogin()">登录</button>
 
-  <ion-list>
+    <ion-list>
 
-    <button ion-item>
+        <button ion-item>
       <ion-icon name="md-person-add" style="color: deeppink" item-start>
       </ion-icon>
       我的
     </button>
 
-    <button ion-item>
+        <button ion-item>
       <ion-icon name="cart" style="color: #f53d3d" item-start>
       </ion-icon>
       购物车
     </button>
 
-    <button ion-item>
-      <ion-icon name="logo-github" style="color: #32db64" item-start>
+        <button ion-item>
+      <ion-icon name="logo-github" (click)="getGithub()" style="color: #32db64" item-start>
       </ion-icon>
       github
     </button>
 
-    <button ion-item>
+        <button ion-item>
       <ion-icon name="logo-github" style="color: #32db64" item-start>
       </ion-icon>
       My blog
     </button>
 
 
-  </ion-list>
+
+    </ion-list>
 
 </ion-content>

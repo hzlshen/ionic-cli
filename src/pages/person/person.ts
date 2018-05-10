@@ -14,7 +14,6 @@ import {LoginPage} from "../login/login";
   templateUrl: 'person.html',
 })
 export class PersonPage {
-
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -25,6 +24,11 @@ export class PersonPage {
   //去登录
   getLogin(){
     this.navCtrl.push(LoginPage);
+  }
+
+  //去我的github
+  getGithub(){
+    this.navCtrl.push("https://github.com/hzlshen/");
   }
 
 }
