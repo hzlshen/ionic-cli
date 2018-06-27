@@ -13,8 +13,8 @@ export class AboutPage {
   dateFormat ='yyyy-MM-dd'
 }
 
-export class NzDemoDatePickerExtraFooterComponent{
-   //日期选择
-   plainFooter = 'plain extra footer';
-   footerRender=()=>'footer'
-}
+// export class NzDemoDatePickerExtraFooterComponent{
+//    //日期选择
+//    plainFooter = 'plain extra footer';
+//    footerRender=()=>'footer'
+// }
