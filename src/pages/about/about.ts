@@ -10,7 +10,10 @@ export class AboutPage {
   constructor(public navCtrl: NavController) {
 
   }
-  dateFormat ='yyyy-MM-dd'
+
+  doSomething(){
+    console.log("左侧")
+  }
 }
 
 // export class NzDemoDatePickerExtraFooterComponent{
