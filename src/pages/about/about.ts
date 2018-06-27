@@ -10,6 +10,11 @@ export class AboutPage {
   constructor(public navCtrl: NavController) {
 
   }
- 
+  dateFormat ='yyyy-MM-dd'
+}
 
+export class NzDemoDatePickerExtraFooterComponent{
+   //日期选择
+   plainFooter = 'plain extra footer';
+   footerRender=()=>'footer'
 }
