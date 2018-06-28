@@ -55,7 +55,9 @@ import {RegistPage} from "../pages/regist/regist";
     TabsPage,
     PersonPage,
     LoginPage,
-    RegistPage
+    RegistPage,
+    CardsListPage,
+    CardsImagePage
   ],
   providers: [
     StatusBar,
