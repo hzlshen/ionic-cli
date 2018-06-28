@@ -1,3 +1,5 @@
+import { CardsImagePage } from './../pages/cards-image/cards-image';
+import { CardsListPage } from './../pages/cards-list/cards-list';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -32,7 +34,9 @@ import {RegistPage} from "../pages/regist/regist";
     TabsPage,
     PersonPage,
     LoginPage,
-    RegistPage
+    RegistPage,
+    CardsListPage,
+    CardsImagePage
   ],
   imports: [
     BrowserModule,
