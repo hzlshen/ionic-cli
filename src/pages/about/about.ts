@@ -10,10 +10,6 @@ export class AboutPage {
   constructor(public navCtrl: NavController) {
 
   }
-
-  doSomething(){
-    console.log("左侧")
-  }
 }
 
 // export class NzDemoDatePickerExtraFooterComponent{
