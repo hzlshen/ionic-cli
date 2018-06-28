@@ -1,3 +1,4 @@
+import { CardsListPage } from './../cards-list/cards-list';
 import { Component} from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -8,6 +9,10 @@ import { NavController } from 'ionic-angular';
 export class AboutPage {
 
   constructor(public navCtrl: NavController) {
+  }
+
+  goCardsList(){
+    this.navCtrl.push(CardsListPage)
   }
 }
 
