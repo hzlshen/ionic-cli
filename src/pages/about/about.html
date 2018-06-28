@@ -1,22 +1,51 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      菜单
+      卡片
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle icon-only>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>菜单</ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
 
-  <button ion-button block menuToggle>菜单</button>
+<ion-content padding class="cards-bg">
+
+  <ion-card>
+    <ion-card-header>
+      卡片
+    </ion-card-header>
+    <ion-list>
+        <button ion-item>
+          <ion-icon name='cart' item-start></ion-icon>
+          Shopping
+        </button>
+
+        <button ion-item>
+          <ion-icon name='medical' item-start></ion-icon>
+          Hospital
+        </button>
+
+        <button ion-item>
+          <ion-icon name='cafe' item-start></ion-icon>
+          Cafe
+        </button>
+
+        <button ion-item>
+          <ion-icon name='paw' item-start></ion-icon>
+          Dog Park
+        </button>
+
+        <button ion-item>
+          <ion-icon name='beer' item-start></ion-icon>
+          Pub
+        </button>
+
+        <button ion-item>
+          <ion-icon name='planet' item-start></ion-icon>
+          Space
+        </button>
+
+      </ion-list>
+  </ion-card>
 
 </ion-content>
