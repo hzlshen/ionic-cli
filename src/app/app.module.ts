@@ -1,3 +1,4 @@
+import { NavigationPage } from './../pages/navigation/navigation';
 import { CardsImagePage } from './../pages/cards-image/cards-image';
 import { CardsListPage } from './../pages/cards-list/cards-list';
 import { NgModule, ErrorHandler } from '@angular/core';
@@ -36,7 +37,8 @@ import {RegistPage} from "../pages/regist/regist";
     LoginPage,
     RegistPage,
     CardsListPage,
-    CardsImagePage
+    CardsImagePage,
+    NavigationPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +59,8 @@ import {RegistPage} from "../pages/regist/regist";
     LoginPage,
     RegistPage,
     CardsListPage,
-    CardsImagePage
+    CardsImagePage,
+    NavigationPage
   ],
   providers: [
     StatusBar,

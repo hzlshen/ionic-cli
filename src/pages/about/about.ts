@@ -1,3 +1,4 @@
+import { NavigationPage } from './../navigation/navigation';
 import { CardsImagePage } from './../cards-image/cards-image';
 import { CardsListPage } from './../cards-list/cards-list';
 import { Component} from '@angular/core';
@@ -17,6 +18,9 @@ export class AboutPage {
   }
   getCardImg(){
     this.navCtrl.push(CardsImagePage)
+  }
+  getNavigation(){
+    this.navCtrl.push(NavigationPage)
   }
 }
 
