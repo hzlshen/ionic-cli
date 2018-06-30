@@ -1,3 +1,4 @@
+import { NavigationDetailPage } from './../navigation-detail/navigation-detail';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -76,7 +77,7 @@ export class NavigationPage {
   }
 
   openNavDetails(){
-
+    this.navCtrl.push(NavigationDetailPage)
   }
 
   ionViewDidLoad() {
