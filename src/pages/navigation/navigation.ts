@@ -76,8 +76,9 @@ export class NavigationPage {
     ];
   }
 
-  openNavDetails(){
-    this.navCtrl.push(NavigationDetailPage)
+  openNavDetails(item){
+    this.navCtrl.push(NavigationDetailPage,{item:item})
+    console.log(item)
   }
 
   ionViewDidLoad() {
