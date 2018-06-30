@@ -1,18 +1,23 @@
 <!--
   Generated template for the NavigationPage page.
-
+  开发者:不动的推动者
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
 <ion-header>
 
   <ion-navbar>
-    <ion-title>navigation</ion-title>
+    <ion-title>导航</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="openNavigation(item)" >
+      <ion-icon name="'logo-'+item.icon" [ngStyle]="{'color': item.color"} ion-start></ion-icon>
+      {{item.title}}
+    </button>
+  </ion-list>
 </ion-content>
