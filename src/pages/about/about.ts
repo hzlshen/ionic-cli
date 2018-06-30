@@ -1,3 +1,4 @@
+import { CardsImagePage } from './../cards-image/cards-image';
 import { CardsListPage } from './../cards-list/cards-list';
 import { Component} from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -13,6 +14,9 @@ export class AboutPage {
 
   goCardsList(){
     this.navCtrl.push(CardsListPage)
+  }
+  getCardImg(){
+    this.navCtrl.push(CardsImagePage)
   }
 }
 
