@@ -75,7 +75,9 @@ export class NavigationPage {
     ];
   }
 
+  openNavDetails(){
 
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad NavigationPage');

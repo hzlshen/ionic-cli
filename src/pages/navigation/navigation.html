@@ -15,8 +15,8 @@
 
 <ion-content padding>
   <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="openNavigation(item)" >
-      <ion-icon name="'logo-'+item.icon" [ngStyle]="{'color': item.color"} ion-start></ion-icon>
+    <button ion-item *ngFor="let item of items" (click)="openNavDetails(item)" >
+      <ion-icon [name]="'logo-'+item.icon" [ngStyle]="{'color': item.color}" ion-start></ion-icon>
       {{item.title}}
     </button>
   </ion-list>
