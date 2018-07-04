@@ -22,6 +22,9 @@ export class AboutPage {
   getNavigation(){
     this.navCtrl.push(NavigationPage)
   }
+  segment(){
+    
+  }
 }
 
 // export class NzDemoDatePickerExtraFooterComponent{
