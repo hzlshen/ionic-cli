@@ -1,3 +1,4 @@
+import { SegmentPage } from './../segment/segment';
 import { NavigationPage } from './../navigation/navigation';
 import { CardsImagePage } from './../cards-image/cards-image';
 import { CardsListPage } from './../cards-list/cards-list';
@@ -23,7 +24,7 @@ export class AboutPage {
     this.navCtrl.push(NavigationPage)
   }
   segment(){
-    
+    this.navCtrl.push(SegmentPage)
   }
 }
 

@@ -1,3 +1,4 @@
+import { SegmentPage } from './../pages/segment/segment';
 import { NavigationDetailPage } from './../pages/navigation-detail/navigation-detail';
 import { NavigationPage } from './../pages/navigation/navigation';
 import { CardsImagePage } from './../pages/cards-image/cards-image';
@@ -40,7 +41,8 @@ import {RegistPage} from "../pages/regist/regist";
     CardsListPage,
     CardsImagePage,
     NavigationPage,
-    NavigationDetailPage
+    NavigationDetailPage,
+    SegmentPage
   ],
   imports: [
     BrowserModule,
@@ -63,7 +65,8 @@ import {RegistPage} from "../pages/regist/regist";
     CardsListPage,
     CardsImagePage,
     NavigationPage,
-    NavigationDetailPage
+    NavigationDetailPage,
+    SegmentPage
   ],
   providers: [
     StatusBar,
