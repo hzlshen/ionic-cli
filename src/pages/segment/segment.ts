@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
+import { IonicPage, Platform } from 'ionic-angular';
 
 /**
  * Generated class for the SegmentPage page.
