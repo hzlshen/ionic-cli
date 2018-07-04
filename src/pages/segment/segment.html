@@ -11,7 +11,19 @@
   </ion-navbar>
 
 </ion-header>
-
+<ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="puppies">
+        Puppies
+      </ion-segment-button>
+      <ion-segment-button value="kittens">
+        Kittens
+      </ion-segment-button>
+      <ion-segment-button value="ducklings">
+        Ducklings
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
 <ion-content>
     <div [ngSwitch]="pet">
       <ion-list *ngSwitchCase="'puppies'">
