@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, Platform } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
 
 /**
  * Generated class for the SegmentPage page.
@@ -18,7 +18,7 @@ export class SegmentPage {
   pet: string = "puppies";
   isAndroid: boolean = false;
 
-  constructor(platform: Platform) {
+  constructor(platform: Platform,public navCtrl: NavController, public navParams: NavParams) {
     this.isAndroid = platform.is('android');
   }
 
