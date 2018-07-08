@@ -1,4 +1,13 @@
 page-home {
+  $browser-default-font-size: 10px !default;//变量的值可以根据自己需求定义
+
+html {
+    font-size: $browser-default-font-size;
+}
+
+@function pxTorem($px){//$px为需要转换的字号
+    @return $px / $browser-default-font-size * 1rem;
+}
   //轮播
   ion-slides{
     width: 100%;
@@ -11,15 +20,15 @@ page-home {
   //list
   .contaniner_list{
     width: 100%;
-    height: 180px;
-    margin-top: 20px;
+    height: pxTorem(180px);
+    margin-top: pxTorem(20px);
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
   }
   .content_box{
     width: 20%;
-    height: 80;
+    height: pxTorem(80px);
     text-align: center;
     align-items: center;
   }
