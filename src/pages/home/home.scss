@@ -1,4 +1,5 @@
 page-home {
+  //轮播
   ion-slides{
     width: 100%;
     height: 33.5%;
@@ -7,16 +8,18 @@ page-home {
     width: 100%;
     height: 100%;
   }
+  //list
   .contaniner_list{
     width: 100%;
-    height: 200px;
+    height: 180px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
   }
   .content_box{
     width: 20%;
-    height: 100px;
+    height: 80;
     text-align: center;
     align-items: center;
   }
