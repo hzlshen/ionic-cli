@@ -1,3 +1,4 @@
+import { SettingPage } from './../person/setting/setting';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {LoginPage} from "../login/login";
@@ -21,9 +22,9 @@ export class PersonPage {
     console.log('ionViewDidLoad PersonPage');
   }
 
-  //去登录
-  getLogin(){
-    this.navCtrl.push(LoginPage);
+  //去设置
+  getSetting(){
+    this.navCtrl.push(SettingPage);
   }
 
   //去我的github
