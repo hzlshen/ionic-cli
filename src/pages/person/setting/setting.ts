@@ -1,3 +1,4 @@
+import { PasswordManagePage } from './../../person/password-manage/password-manage';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -16,6 +17,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class SettingPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  getPassword(){
+    this.navCtrl.push(PasswordManagePage)
   }
 
   ionViewDidLoad() {
