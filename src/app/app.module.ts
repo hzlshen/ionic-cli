@@ -1,3 +1,4 @@
+import { PasswordManagePage } from './../pages/person/password-manage/password-manage';
 import { SettingPage } from './../pages/person/setting/setting';
 import { SegmentPage } from './../pages/segment/segment';
 import { NavigationDetailPage } from './../pages/navigation-detail/navigation-detail';
@@ -45,6 +46,7 @@ import {RegistPage} from "../pages/regist/regist";
     NavigationDetailPage,
     SegmentPage,
     SettingPage,
+    PasswordManagePage,
   ],
   imports: [
     BrowserModule,
@@ -70,6 +72,7 @@ import {RegistPage} from "../pages/regist/regist";
     NavigationDetailPage,
     SegmentPage,
     SettingPage,
+    PasswordManagePage,
   ],
   providers: [
     StatusBar,
