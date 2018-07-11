@@ -1,3 +1,5 @@
+import { PrivacyPage } from './../pages/person/privacy/privacy';
+import { AboutusPage } from './../pages/person/aboutus/aboutus';
 import { PasswordManagePage } from './../pages/person/password-manage/password-manage';
 import { SettingPage } from './../pages/person/setting/setting';
 import { SegmentPage } from './../pages/segment/segment';
@@ -47,6 +49,8 @@ import {RegistPage} from "../pages/regist/regist";
     SegmentPage,
     SettingPage,
     PasswordManagePage,
+    AboutusPage,
+    PrivacyPage
   ],
   imports: [
     BrowserModule,
@@ -73,6 +77,8 @@ import {RegistPage} from "../pages/regist/regist";
     SegmentPage,
     SettingPage,
     PasswordManagePage,
+    AboutusPage,
+    PrivacyPage
   ],
   providers: [
     StatusBar,
