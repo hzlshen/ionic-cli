@@ -1,3 +1,5 @@
+import { PrivacyPage } from './../../person/privacy/privacy';
+import { AboutusPage } from './../../person/aboutus/aboutus';
 import { PasswordManagePage } from './../../person/password-manage/password-manage';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
@@ -21,6 +23,12 @@ export class SettingPage {
 
   getPassword(){
     this.navCtrl.push(PasswordManagePage)
+  }
+  toAbout(){
+    this.navCtrl.push(AboutusPage)
+  }
+  toPrivacy(){
+    this.navCtrl.push(PrivacyPage)
   }
 
   ionViewDidLoad() {

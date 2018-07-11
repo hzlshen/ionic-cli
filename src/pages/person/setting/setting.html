@@ -10,8 +10,8 @@
 <ion-content>
   <ion-list>
     <button ion-item (click)="getPassword()">密码管理</button>
-    <button ion-item>关于我们</button>
-    <button ion-item style="border-bottom: none">隐私声明</button>
+    <button ion-item (click)="toAbout()">关于我们</button>
+    <button ion-item (click)="toPrivacy()" style="border-bottom: none">隐私声明</button>
   </ion-list>
 
   <button ion-button full>退出登录</button>
