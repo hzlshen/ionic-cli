@@ -31,6 +31,11 @@ export class SettingPage {
     this.navCtrl.push(PrivacyPage)
   }
 
+  //退出登录
+  signOut(){
+
+  }
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad SettingPage');
   }
