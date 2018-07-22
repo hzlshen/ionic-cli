@@ -22,4 +22,28 @@ page-person {
     color: #fff;
     font-size: 24px;
   }
+  // avatar
+  .loginAvatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+  }
+  .loginAvatar .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .loginName{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 23px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
 }
