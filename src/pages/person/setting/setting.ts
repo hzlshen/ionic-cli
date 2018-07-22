@@ -2,7 +2,7 @@ import { PrivacyPage } from './../../person/privacy/privacy';
 import { AboutusPage } from './../../person/aboutus/aboutus';
 import { PasswordManagePage } from './../../person/password-manage/password-manage';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
 
 /**
  * Generated class for the SettingPage page.
@@ -18,7 +18,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SettingPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,public navParams: NavParams,public alertCtrl:AlertController) {
   }
 
   getPassword(){
@@ -32,8 +32,14 @@ export class SettingPage {
   }
 
   //退出登录
+  //弹出模态框
   signOut(){
-
+    let alert = this.alertCtrl.create({
+      title:'提示',
+      message:'是否确定退出',
+      buttons:['确定']
+    });
+    alert.present()
   }
 
   ionViewDidLoad() {
