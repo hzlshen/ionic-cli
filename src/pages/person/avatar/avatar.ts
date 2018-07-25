@@ -15,7 +15,23 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class AvatarPage {
 
+  gender:string = "f";
+  gaming: string = "n64";
+  os: string;
+  music: string;
+  month: string;
+  year: number;
+
+  musicAlertOpts: { title: string, subTitle: string };
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.musicAlertOpts = {
+      title: '1994 Music',
+      subTitle: 'Select your favorite'
+    };
+  }
+  stpSelect() {
+    console.log('STP selected');
   }
 
   ionViewDidLoad() {
