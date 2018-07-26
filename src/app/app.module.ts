@@ -1,3 +1,5 @@
+import { UserNamePage } from './../pages/person/user-name/user-name';
+import { BindPhoneNumberPage } from './../pages/person/bind-phone-number/bind-phone-number';
 import { AvatarPage } from './../pages/person/avatar/avatar';
 import { PrivacyPage } from './../pages/person/privacy/privacy';
 import { AboutusPage } from './../pages/person/aboutus/aboutus';
@@ -52,7 +54,9 @@ import {RegistPage} from "../pages/regist/regist";
     PasswordManagePage,
     AboutusPage,
     PrivacyPage,
-    AvatarPage
+    AvatarPage,
+    BindPhoneNumberPage,
+    UserNamePage
   ],
   imports: [
     BrowserModule,
@@ -81,7 +85,9 @@ import {RegistPage} from "../pages/regist/regist";
     PasswordManagePage,
     AboutusPage,
     PrivacyPage,
-    AvatarPage
+    AvatarPage,
+    BindPhoneNumberPage,
+    UserNamePage
   ],
   providers: [
     StatusBar,
