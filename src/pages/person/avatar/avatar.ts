@@ -1,3 +1,4 @@
+import { UserNamePage } from './../../person/user-name/user-name';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -32,6 +33,11 @@ export class AvatarPage {
   }
   stpSelect() {
     console.log('STP selected');
+  }
+
+  //去修改昵称
+  getUserName(){
+    this.navCtrl.push(UserNamePage)
   }
 
   ionViewDidLoad() {
