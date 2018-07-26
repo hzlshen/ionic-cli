@@ -1,3 +1,4 @@
+import { BindPhoneNumberPage } from './../../person/bind-phone-number/bind-phone-number';
 import { UserNamePage } from './../../person/user-name/user-name';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
@@ -38,6 +39,10 @@ export class AvatarPage {
   //去修改昵称
   getUserName(){
     this.navCtrl.push(UserNamePage)
+  }
+  //绑定手机号
+  clickPhone(){
+    this.navCtrl.push(BindPhoneNumberPage)
   }
 
   ionViewDidLoad() {
